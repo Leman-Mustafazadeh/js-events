@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+form{
+    border: 2px solid white;
+  width: 50%;
+  border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 0;
+}
+form input{
+    border-radius: 5px;
+    outline: transparent;
+    padding: 5px;
+    background-color: dimgray;
+    width: 100%;
+}
+form input::placeholder{
+    color: white;
+}
+form button{
+    background-color: black;
+    color: white;
+    width: 20%;
+border-radius: 15px;
+}
+form span{
+    color: red;
+    width: 100%;
+    text-align: start;
+    display: none;
+}
+.active{
+    display: block;
+}
+.head-form{
+    width: 50%;
+margin: 0 auto;
+padding: 30px 0;
+
+}
+.head-form  table thead tr th{
+    color: white;
+    font-weight: 500;
+    gap: 30px;
+    font-size: 20px;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
